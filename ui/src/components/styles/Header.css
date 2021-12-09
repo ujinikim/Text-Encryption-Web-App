@@ -1,0 +1,61 @@
+.NavBar {
+  display: flex;
+  height: 60px;
+  border-bottom: 1px solid rgb(215, 215, 215);
+  width: 100vw;
+}
+
+.NavBar > div{
+  padding: 10px;
+}
+
+.NavBar_logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.NavBar_logo>span{
+    font-size: 16px;
+    font-weight: 650;
+    margin-left: 20px;
+}
+
+.NavBar_icons{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.NavBar_icons> span > .NavBar_button{
+  margin-left: 5px;
+}
+
+
+/* .NavBar_searchContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 8px;
+}
+
+.NavBar_searchBar {
+  width: 60%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(237, 237, 237);
+  display: flex;
+  align-items: center;
+  padding: 0 8px;
+}
+
+.NavBar_searchBar>input {
+  flex: 1;
+  height: 100%;
+  font-size: 16px;
+  color: black;
+  background: none;
+  border: none;
+  margin-left: 10px;
+} */
+

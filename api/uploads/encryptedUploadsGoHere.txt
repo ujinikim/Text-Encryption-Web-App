@@ -1,0 +1,1 @@
+This folder contains all the files that are uploaded and are being encrypted

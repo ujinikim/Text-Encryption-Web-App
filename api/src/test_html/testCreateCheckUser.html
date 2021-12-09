@@ -1,0 +1,28 @@
+<h1>Testing system for CS4389 project<h1>
+<h3>All passwords are currently stored in plain text (do not use sensitive data to test)</h3>
+
+
+<h4> Test checking if user exists</h4>
+<form method="post" action="http://localhost:3000/checkUser">
+
+
+<input type="text" name="username" placeholder="username" autocomplete="off"></input>
+<input type="text" name="password" placeholder="password" autocomplete="off"></input>
+
+<input type="submit"></input>
+
+</form>
+
+<br><br>
+
+
+<h4> Test creating a user</h4>
+<form method="post" action="http://localhost:3000/createUser">
+
+
+<input type="text" name="username" placeholder="username" autocomplete="off"></input>
+<input type="text" name="password" placeholder="password" autocomplete="off"></input>
+
+<input type="submit" placeholder="Create User"></input>
+
+</form>
